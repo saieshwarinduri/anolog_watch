@@ -2,9 +2,6 @@ let h1 = document.getElementById("heading");
 let hourstick = document.getElementById("hour");
 let minuteStick = document.getElementById("min");
 let secStick = document.getElementById("sec");
-let stopBtn = document.getElementById("stop");
-let startbtn = document.getElementById("start");
-let k;
 setInterval(() => {
   let d = new Date();
   let min = d.getMinutes();
@@ -19,10 +16,3 @@ setInterval(() => {
   minuteStick.style.transform = `rotate(${min_rotate}deg)`;
   secStick.style.transform = `rotate(${sec_rotate}deg)`;
 }, 1000);
-
-stopBtn.onclick = () => {
-  clearInterval(k);
-};
-startbtn.onclick = () => {
-  func();
-};
