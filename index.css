@@ -5,10 +5,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: black;
 }
 .cloclcontaienr{
     background-image: url("https://res.cloudinary.com/djomnr5y2/image/upload/v1675619592/5054_impkri.png");
     background-size: 100%;
+    border-radius: 300px;
     height: 500px;
     width: 500px;
     position: relative;
